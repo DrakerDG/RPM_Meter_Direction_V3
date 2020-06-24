@@ -12,7 +12,7 @@ On each axis of the motors I have improvised an encoder with neodymium magnets.
 
 For starting and turning control of each motor, I use operational amplifiers (LM324N) with a joystick and a driver (L293N and L298N).
 
-Code: https://github.com/DrakerDG/RPM_Meter_Direction_V3
+Last but not least, I have used a Schmitt Trigger inverter (SN74LS14N) to nullify the transient effect of each sensor, which avoids false readings and thus obtain with enough precision the revolutions and direction of rotation of each motor.
 
 Reference:
 https://youtu.be/BAfxA7JvHsE
